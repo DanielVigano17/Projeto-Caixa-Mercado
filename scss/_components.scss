@@ -1,0 +1,19 @@
+.primary-button{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 22px;
+    font-weight: 600;
+    transition: 0.5s;
+    transition-property: box-shadow;
+    background: $second-color;
+    box-shadow: 0 0 20px $second-color;
+    &:hover{
+        box-shadow: 0 0 1px $second-color,
+        0 0 15px $second-color,
+        0 0 20px $second-color,
+        0 0 40px $second-color;
+    }
+}

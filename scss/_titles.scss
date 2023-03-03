@@ -1,0 +1,38 @@
+h1{
+    font-weight:bold;
+    font-size: 6.4rem;
+    @include responsive(1050px){
+        font-size: 5.3rem;
+    }
+  
+}
+h2{
+
+    font-weight:bold;
+    font-size: 4rem;
+
+}
+h1,h2{
+    font-family: 'Poppins', sans-serif;
+    line-height: 112%;
+    letter-spacing: -0.1rem;
+    color:$text-color;
+
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 150%;
+    letter-spacing: -0.05rem;
+    color:$text-color;
+}
+h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 112%;
+    letter-spacing: -0.05rem;
+    color:$text-color;
+    
+}
