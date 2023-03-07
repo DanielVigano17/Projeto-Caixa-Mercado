@@ -19,6 +19,8 @@
     <header></header>
   
     <section class="content">
+        
+
      <div class="layout">
 
         <div class="lista-produtos">
@@ -44,9 +46,11 @@
             <h3>Dados do Pedido</h3>
 
             <div class="lista-pedido">
-
-                <div class="item-pedido">
-
+             
+          
+                <template class="template">
+                    
+                   <div class="item-pedido">
                     <div class="info-left">
                         <h4>Coca-Cola 3L</h4>
                         <input type="number" value="1" min="1" max="20">
@@ -54,18 +58,85 @@
 
                     <div class="info-right">
                         <div class="img">
-                            <img src="img/Vector.svg" alt="">
+                            <img class="remove" src="img/Vector.svg" alt="">
                             
                         </div>
                         <span>R$ 12</span>
-                    </div>
+                   </div>
+                    
+                    </template>
 
-                </div>
+                    
+                
 
+            </div>
+
+            <div class="finalizar">
+                <h4>Valor Total: R$<span id="final"></span></h4>
+
+                <button class="btn_finalizar">Finalizar Pedido</button>
             </div>
         </div>
 
      </div>
+
+
+    <div class="modal invisi">
+        <h3>Dados do Cliente</h3>
+
+        <div class="info">
+            <div class="cadastro">
+                <label >Nome</label>
+            <input type="text">
+            <label>Contato</label>
+            <input type="text">
+            <label >CPF</label>
+            <input type="text">
+            </div>
+
+            <div class="result">
+                <h4>Valor Total: R$ <span id="final2"></span></h3>
+            </div>
+        </div>
+
+        <div class="pagamentos">
+
+            <div class="item">
+                <div class="img">
+                    <img src="img/pix_icon.svg" alt="">
+                </div>
+                <div class="text">
+                    <h4>Pix</h4>
+                    <p>O pagamento será aprovado na hora</p>
+                </div>
+                <img src="img/arrow_icon.svg" alt="">
+            </div>
+
+            <div class="item">
+                <div class="img">
+                    <img src="img/cartao_icon.svg" alt="">
+                </div>
+                <div class="text">
+                    <h4>Cartão</h4>
+                    <p>Adicionar novo cartão</p>
+                </div>
+                <img src="img/arrow_icon.svg" alt="">
+            </div>
+
+            <div class="item">
+                <div class="img">
+                    <img src="img/dinheiro_icon.svg" alt="">
+                </div>
+                <div class="text">
+                    <h4>Pix</h4>
+                    <p>Valor a ser observado para possível troco</p>
+                </div>
+                <img src="img/arrow_icon.svg" alt="">
+            </div>
+
+        </div>
+    </div>
+
     </section>
    
 
