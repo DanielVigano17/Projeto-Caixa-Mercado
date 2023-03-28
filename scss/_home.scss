@@ -130,8 +130,8 @@
         }
     }
     .modal{
-        position: fixed;
-        top: 2rem;
+        position: absolute;
+        top: -1rem;
         left: 50;
         bottom: 40;
         display: flex;
@@ -152,6 +152,16 @@
             margin-bottom: 3.8rem;
             border-bottom: 2px solid rgba(0, 0, 0, 0.15);
         }
+        .imagens2{
+            max-width: 20.1rem;
+            margin-left: 2rem;
+        img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 3.8rem;
+        }     
+        }
         .info{
             max-width: 26.1rem;
             width: 100%;
@@ -160,6 +170,16 @@
             margin-top: 3.5rem;
             margin-bottom: 1.5rem;
             text-align: center;
+           
+            .btn-pagar{
+                width: 18.6rem;
+                height: 5.8rem;
+                background: #D1F473;
+                border-radius: 35px;
+                font-weight: 600;
+                font-size: 16px;
+                margin-top: 4rem;
+            }
             .cadastro{
                 display: flex;
                 flex-direction: column;
